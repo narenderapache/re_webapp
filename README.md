@@ -7,6 +7,7 @@
 - requests - to handle external requests -> Not used in the current implementation
 
 ## Technical nuances
+ - **python3:** python3 is chosen to build the web-app as it is light weight and powerful 
  - **Flask:** It is one of the light weight easy to setup library to create rest api applications in a whip of time. It is reliable, quick to deploy and easy to setup.
  - **SQLite:** Needed a totally light weight easy to load and save backend. SQLite was or first choice. It is a file based system. As our requirement just involved only little amount of data we chose this.
 

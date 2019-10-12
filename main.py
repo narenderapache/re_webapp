@@ -13,6 +13,7 @@ if not os.path.exists(DATABASE):
     cur = conn.cursor()
     cur.execute("CREATE TABLE users (name);")
     conn.commit()
+    # Have used the {name} variable which need to be fetched from the db
     cur.execute("INSERT INTO users VALUES('Narender');")
     conn.commit()
     conn.close()
