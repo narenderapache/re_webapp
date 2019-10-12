@@ -13,7 +13,8 @@
 ### containerise the application using docker
 - `docker build -t my-webapp .` -> build the app locally
 - `docker run -d --name my-webapp -p 80:80  my-webapp:latest` -> to test the web app locally
-- `curl localhost:80` or `localhost:80` on browser
+- `curl localhost:80` or `localhost:80` on browser to check the web-app
+- `docker logs -f <container_id>` -> verify docker logs
 
 ### running integration tests
 - integration tests are useful when we define the pipeline/stages for ci/cd -> Not part of this code
